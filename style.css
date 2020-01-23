@@ -1,0 +1,59 @@
+.circulo {
+    background-color: #0D47A1;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    position: absolute;
+    transition: 0.5s;
+    left: 10px;
+    top: 10px
+}
+
+.botones {
+    margin: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    display: table;
+}
+
+.fila {
+    display: table-row;
+}
+
+.celda {
+    font-size: 40px;
+    display: table-cell;
+    color: #78909C;
+}
+
+.seleccionado {
+    color: #b71c1c !important;
+    transition: 0.1s;
+}
+
+.tecla {
+    position: fixed;
+    top: 0;
+    right: 0;
+    border: #78909C solid 3px;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #78909C;
+    display: none;
+}
+
+.mostrar {
+    display: block !important;
+}

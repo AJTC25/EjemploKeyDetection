@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <title>Key detection</title>
+</head>
+
+<body>
+    <div class="circulo" id="circulo">
+    </div>
+    <div class="botones">
+        <div class="fila">
+            <div class="celda">
+                &nbsp;
+            </div>
+            <div class="celda" id="arriba">
+                <i class="fa fa-chevron-circle-up" aria-hidden="true"></i>
+            </div>
+            <div class="celda">
+                &nbsp;
+            </div>
+        </div>
+        <div class="fila">
+            <div class="celda" id="izquierda">
+                <i class="fa fa-chevron-circle-left" aria-hidden="true"></i>
+            </div>
+            <div class="celda" id="abajo">
+                <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+            </div>
+            <div class="celda" id="derecha">
+                <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+    <div class="tecla" id="teclaPresionada">
+        <span id="textoTecla"></span>
+    </div>
+    <script type="text/javascript" src="./keyDetection.js"></script>
+</body>
+
+</html>
